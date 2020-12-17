@@ -5,6 +5,7 @@ Package partqueue provides a type of queue to process partitioned items.
 Usage
 -----
 .. code:: go
+
   package main
 
   import (
