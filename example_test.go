@@ -36,7 +36,7 @@ func consumer(c int, q *partqueue.Queue) {
 		// wait for an item
 		i, _ := q.Get(context.Background())
 
-		fmt.Printf("consumer %v got %v", c, i)
+		fmt.Printf("consumer %v got %v\n", c, i)
 
 		// simulate work
 		time.Sleep(200 * time.Millisecond)
