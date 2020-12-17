@@ -1,5 +1,7 @@
 partqueue
 =========
+|goref|
+
 Package partqueue provides a type of queue to process partitioned items.
 
 Usage
@@ -55,3 +57,7 @@ Usage
       i.Done()
     }
   }
+
+.. |goref| image:: https://pkg.go.dev/badge/github.com/jashandeep-sohi/partqueue.svg
+  :alt: Go Reference
+  :target: https://pkg.go.dev/github.com/jashandeep-sohi/partqueue
