@@ -22,7 +22,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 // a set of consumers can process them in-order per partition.
 //
 // Consumers signal when they are done with an item, thereby dequeuing another
-// item form the same partition. This allows only one consumer to process an
+// item from the same partition. This allows only one consumer to process an
 // item per partition at a time.
 //
 // Items that have a different partition key are however consumed in-parallel.
