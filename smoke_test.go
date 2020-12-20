@@ -84,7 +84,7 @@ func TestPartitionOrder(t *testing.T) {
 	partBOut := []int{}
 
 	for _, v := range partAIn {
-		ctx, cancel := context.WithTimeout(context.Background(), time.Millisecond)
+		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Millisecond)
 		defer cancel()
 
 		err := q.Put(ctx, "A", v)
@@ -95,7 +95,7 @@ func TestPartitionOrder(t *testing.T) {
 	}
 
 	for _, v := range partBIn {
-		ctx, cancel := context.WithTimeout(context.Background(), time.Millisecond)
+		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Millisecond)
 		defer cancel()
 
 		err := q.Put(ctx, "B", v)
@@ -106,7 +106,7 @@ func TestPartitionOrder(t *testing.T) {
 	}
 
 	for i := 0; i < 10; i++ {
-		ctx, cancel := context.WithTimeout(context.Background(), time.Millisecond)
+		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Millisecond)
 		defer cancel()
 
 		i, err := q.Get(ctx)
