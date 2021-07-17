@@ -1,6 +1,6 @@
 # partqueue
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/jashandeep-sohi/partqueue.svg)](https://pkg.go.dev/github.com/jashandeep-sohi/partqueue)
+[![Go Reference](https://pkg.go.dev/badge/go.sohi.link/partqueue.svg)](https://pkg.go.dev/go.sohi.link/partqueue)
 [![CI](https://github.com/jashandeep-sohi/partqueue/workflows/CI/badge.svg?branch=master)](https://github.com/jashandeep-sohi/partqueue/actions?query=workflow%3ACI+branch%3Amaster)
 
 Package partqueue provides a type of queue to process partitioned items.
@@ -18,7 +18,7 @@ import (
   "fmt"
   "time"
 
-  "github.com/jashandeep-sohi/partqueue"
+  "go.sohi.link/partqueue"
 )
 
 func main() {

@@ -1,3 +1,3 @@
-module github.com/jashandeep-sohi/partqueue
+module go.sohi.link/partqueue
 
 go 1.15

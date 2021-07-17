@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jashandeep-sohi/partqueue"
+	"go.sohi.link/partqueue"
 )
 
 func TestPut(t *testing.T) {

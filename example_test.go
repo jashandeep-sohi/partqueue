@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jashandeep-sohi/partqueue"
+	"go.sohi.link/partqueue"
 )
 
 func Example() {
